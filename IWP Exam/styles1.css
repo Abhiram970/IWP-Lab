@@ -1,0 +1,21 @@
+p.class1
+{
+    color: green;
+    font-size: 22px;
+    background-color: blue;
+    text-align: right;
+    color: rebeccapurple;
+}
+
+p#hello
+{
+    color: red;
+    font-size: 24px;
+    background-color: green;
+    text-align: right;
+}
+
+p
+{
+    color: maroon;
+}

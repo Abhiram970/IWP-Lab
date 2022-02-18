@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pull-left {float:left;}
+        .pull-right {float:right;}
+    </style>
+</head>
+<body style="margin: 55px; border: 5px solid;">
+    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 30px; margin: 20px; float: left;" onclick="function1()">A </p> 
+    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 30px; margin: 20px;" onclick="function2()" >B</p>
+    <div class="A" style="visibility: hidden;">
+        <p style="padding-left: 30px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            A words
+            A hello
+            A kiss
+        </p>
+    </div>
+    <div class="B" style="visibility: hidden;">
+        <p style="padding-left: 30px;   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            B words
+            B hello
+            B kiss
+        </p>
+    </div>
+    <div class="B">
+    </div>
+    <script>
+        function function1()
+        {
+            if (document.querySelector('.A').style.visibility === "hidden")
+            {
+                document.querySelector('.A').style.visibility = "visible";
+            }
+            else
+            {
+                document.querySelector('.A').style.visibility = "hidden";
+            }
+        }
+        function function2()
+        {
+            if (document.querySelector('.B').style.visibility === "hidden")
+            {
+                document.querySelector('.B').style.visibility = "visible";
+            }
+            else
+            {
+                document.querySelector('.B').style.visibility = "hidden";
+            }
+        }
+    </script>
+</body>
+</html>

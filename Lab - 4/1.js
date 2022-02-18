@@ -4,10 +4,12 @@ function function1()
     if (v % 2 == 0)
     {
         alert("Even number");
+        document.f1.t1.value = null;
     }
     else
     {
         alert("Odd number");
+        document.f1.t1.value = null;
     }
 }
 
