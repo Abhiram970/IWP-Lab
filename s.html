@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS</h1>
+    Enter the number of inputs<br><br>
+    <input type="number" id="num">
+    <br><br>
+    <button type="submit" onclick="function1()">Submit</button>
+    <br><br>
+    <div class="ho"></div>
+    <script>
+        function function1()
+            {
+                var n = document.getElementById("num").value;
+                var sum = 0;
+                var prompt1;
+                for (var i = 0 ;i < n ; i++)
+                {
+                    prompt1 = prompt("Please enter the " + (i+1) + "th input");
+                    sum += parseInt(prompt1)
+                }
+                document.querySelector('.ho').innerHTML = "The sum of given " + n + " inputs is " + sum; 
+                document.querySelector(".ho").style.fontFamily = "Verdana,bold,arial";
+                document.querySelector(".ho").style.fontWeight = "900";
+            }
+    </script>
+    
+</body>
+</html>

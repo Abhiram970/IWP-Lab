@@ -1,0 +1,20 @@
+.animation
+{
+    text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    direction:rtl;
+}
+
+.jo:hover
+{
+    color: aqua;
+    font-size: 40px;
+}
+
+
+@keyframes example {
+    from {color: red; font-size: 30px;}
+    to {color: blue; font-size: 60px;}
+  }

@@ -1,0 +1,169 @@
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.code-box
+{
+    background-color: #fff;
+    margin-right: 500px;
+    margin-left: 20px;
+    position: relative;
+    left: 440px;
+    bottom: 320px; 
+    padding-bottom: 200px;
+}
+.code-head
+{
+    position: relative;
+    left: 458px;
+    bottom: 330px;
+}
+.result-box
+{
+    background-color: #fff;
+    margin-right: 500px;
+    margin-left: 20px;
+    position: relative;
+    left: 440px;
+    bottom: 375px; 
+    padding-bottom: 220px;
+}
+.main-head
+{
+    margin-left: 20px;
+    padding: 18px;
+}
+.body-styles
+{
+    background-color: #fff;
+}
+.main-box
+{
+    border: 1px solid;
+    border-color: grey;
+    margin: 120px 300px 120px 300px;
+    background-color: #EDEDED;
+    height: 920px;
+}
+.result-head
+{
+    position: relative;
+    left: 460px;
+    bottom: 390px; 
+}
+.options-box
+{
+    padding: 10px 0px 40px 30px;
+    background-color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 500px;
+    margin-left: 20px;
+}
+.red-back
+{
+    background-color: red;
+}
+.answer
+{
+    margin-right: 270px;
+    padding-bottom: 90px;
+}
+.extra-props
+{
+    position: relative;
+    bottom: 260px;
+    left: 9px;
+}
+.extra-props-w3
+{
+    position: relative;
+    bottom: 290px;
+    left: 729px;
+}
+.code-values
+{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.js-change
+{
+    position: absolute;
+    left:20px;
+    top: 90px;
+}
+@media (max-width:1000px) 
+{
+    .main-box
+    {
+        border: 1px solid;
+        border-color: grey;
+        margin: 20px 30px 20px 30px;
+        background-color: #EDEDED;
+        height: 1000px;
+    }
+
+    .options-box
+    {
+        padding: 10px 0px 10px 30px;
+        background-color: #fff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+    
+    .result-box
+    {
+        background-color: #fff;
+        margin-right: 200px;
+        margin-left: 20px;
+        position: relative;
+        left: 19px;
+        margin-top: 30px;
+        bottom: 5px; 
+        padding-bottom: 90px;
+    }
+
+    .result-head
+    {
+        margin-top: 17px;
+        position: relative;
+        left: 40px;
+        bottom: 1px; 
+    }
+
+    .code-box
+    {
+        background-color: #fff;
+        margin-right: 100px;
+        margin-left: 10px;
+        position: relative;
+        left: 30px;
+        bottom: 10px; 
+        padding-bottom: 60px;
+    }
+    
+    .code-head
+    {
+        position: relative;
+        margin-top: 16px;
+        left: 51px;
+        bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .extra-props
+    {
+        position: relative;
+        margin-top: 30px;
+        bottom: 1px;
+        left: 9px;
+    }
+    
+    .extra-props-w3
+    {
+        position: relative;
+        bottom: 2px;
+        left: 10px;
+    }
+    
+}
