@@ -1,0 +1,45 @@
+.animation
+{
+    animation-duration: 10s;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+#div1
+{
+    animation-timing-function: ease;
+}
+
+@keyframes example {
+    0% {background-color: blue;}
+    45% {background-color: red;}
+    80% {background-color: yellow;}
+    0% {
+        transform: translatex(0px) translatey(0px);
+    }
+    20% {
+        transform: translatex(100px) translatey(100px);
+    }
+    40%
+    {
+        transform: translatex(100px) translatey(0px);
+    }
+    60%
+    {
+        transform: translatex(0px) translatey(0px);
+    }
+    80%
+    {
+        transform: translatex(100px) translatey(0px);
+    }
+    90%
+    {
+        transform: translatex(100px) translatey(100px);
+    }
+
+}
+  
